@@ -11,16 +11,10 @@ class Projects extends React.Component {
                     <TitleBar title="Projects" />
                     <Container fluid>
                         <Row className="justify-content-center" style={{ alignItems: "center" }}>
-                            <h1>Portfolio : 
-                                Technologies - JavaScript , Reactjs , Nodejs , HTML/CSS
-                                About - This is a project for a personal online resume 
-                                 Link - https://mandlamthethwa.vercel.app/ </h1>
-                            <h1> 
-                                labtrack : 
-                                Technologies - PHP , PHPmyadmin , HTML/CSS
-                                About - Application to track attandance for students 
-                                Link - https://github.com/MandlaMthethwa/labrack
-                             </h1>
+                            <h1>Sorry!! Page is Under maintenance, No worries though You can visit my Github and view all my projects and
+ repositories, Thank you! 
+</h1>
+                            
                             
                         </Row>
                     </Container>
