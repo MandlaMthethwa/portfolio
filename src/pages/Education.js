@@ -43,7 +43,7 @@ class Education extends React.Component {
                                 image={DPSRKPLogo}
                                 fallback_image={DPSRKPFallbackLogo}
                                 title="Ekulindeni Secondary School"
-                                degree="Nationla Senior Certificate (B)"
+                                degree="National Senior Certificate (B)"
                                 major="Maths and Science"
                                 class="Class of 2016"
                                 duration="January 2014 - November 2016"
