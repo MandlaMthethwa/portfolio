@@ -7,10 +7,11 @@ import TitleBar from "../components/TitleBar";
 import UMassLogo from "../assets/webp/umass-logo.webp";
 
 import InnovationMLogo from "../assets/webp/innovationm-logo.webp";
+import ProntoLogo from "../assets/webp/pronto.webp";
 
 
 import UMassFallbackLogo from "../assets/jpg/umass-logo.jpg";
-
+import AerossFallbackLogo from "../assets/jpg/aeross-logo.jpg";
 import InnovationMFallbackLogo from "../assets/jpg/innovationm-logo.jpg";
 
 class Experience extends Component {
@@ -69,7 +70,22 @@ class Experience extends Component {
                                duration="November 2021"
                                 
                             />
-                            
+                            <ExperienceCard
+                                image={ProntoLogo}
+                                fallback_image={AerossFallbackLogo}
+                                title="Junior Software Developer"
+                                organization="Pronto computer solutions"
+                                duration="July 2022 - Present"
+                                details={
+                                    <React.Fragment>
+                                        • Design and create database<br/>
+                                    • Web application designing<br/>
+                                        • Front-end developing<br/>
+                                • Creating, maintaining, testing, and 
+                                debugging web applications (back-end)
+                                    </React.Fragment>
+                                }
+                            />
                             
                         </Row>
                     </Container>
