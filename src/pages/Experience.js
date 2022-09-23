@@ -55,22 +55,7 @@ class Experience extends Component {
                                     </React.Fragment>
                                 }
                             />
-                            
-                        </Row>
-                    </Container>
-                    <TitleBar title="Achievements" />
-                    <Container fluid style={{ textAlign: "center" }}>
-                        <Row style={{ display: "inline-flex" }}>
-                            <ExperienceCard
-                                image={UMassLogo}
-                                fallback_image={UMassFallbackLogo}
-                                title="Graduation"
-                                organization="Tshwane University of Technology"
-                               
-                               duration="November 2021"
-                                
-                            />
-                            <ExperienceCard
+                                    <ExperienceCard
                                 image={ProntoLogo}
                                 fallback_image={AerossFallbackLogo}
                                 title="Junior Software Developer"
@@ -86,6 +71,22 @@ class Experience extends Component {
                                     </React.Fragment>
                                 }
                             />
+                            
+                        </Row>
+                    </Container>
+                    <TitleBar title="Achievements" />
+                    <Container fluid style={{ textAlign: "center" }}>
+                        <Row style={{ display: "inline-flex" }}>
+                            <ExperienceCard
+                                image={UMassLogo}
+                                fallback_image={UMassFallbackLogo}
+                                title="Graduation"
+                                organization="Tshwane University of Technology"
+                               
+                               duration="November 2021"
+                                
+                            />
+                            
                             
                         </Row>
                     </Container>
