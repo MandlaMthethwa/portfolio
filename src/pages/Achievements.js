@@ -7,6 +7,8 @@ import AchievementsCard from "../components/AchievementsCard";
 class Achievements extends React.Component {
     render() {
         return (
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9290738396915945"
+     crossorigin="anonymous"></script>
             <div className="primary outer-structure" style={{ display: "flex", flexDirection: "column" }}>
                 <div className="center inner-structure" style={{ flexDirection: "column" }}>
                     <TitleBar title="Achievements & Awards" />
