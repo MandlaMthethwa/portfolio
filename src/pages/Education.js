@@ -13,6 +13,8 @@ import DPSRKPFallbackLogo from "../assets/jpg/dpsrkp-logo.jpg";
 class Education extends React.Component {
     render() {
         return (
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9290738396915945"
+     crossorigin="anonymous"></script>
             <div className="primary outer-structure" style={{ display: "flex", flexDirection: "column" }}>
                 <div className="inner-structure center" style={{ flexDirection: "column" }}>
                     <TitleBar title="Education" />
